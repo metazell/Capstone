@@ -1,1 +1,0 @@
-web: cd geauxclean && node backend/index.js
