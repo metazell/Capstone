@@ -8,24 +8,20 @@
   }
   
   /* Hero Section */
-.hero {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5), /* Add transparency */
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('/Users/evrentals/Desktop/Soft_Engin/49_CapstoneProject/geauxclean/src/pages/priscilla-du-preez-sAW0t0oGtH0-unsplash.jpg'); /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 100px 0;
-  width: 100vw; 
-  margin-left: calc(-50vw + 50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
+  .hero {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    width: 100vw; /* Full viewport width */
+    /* height: 100vh; Full viewport height */
+    margin-left: calc(-50vw + 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   
   .hero-title {
     font-size: 3rem;
